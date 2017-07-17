@@ -31,9 +31,9 @@ def huxiu(content):
     return content
 
 def mail(content):
-    _user ="beckysimpson@163.com"
-    _pwd ="a939194640"
-    _to ="939194640@qq.com"
+    _user ="user@163.com"
+    _pwd ="pwd"
+    _to ="_user@qq.com"
 
     msg=MIMEText(content)
     msg["Subject"]="虎嗅短文每日推送"
